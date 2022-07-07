@@ -1,5 +1,5 @@
 import random
-from __init__ import *
+from sb import *
 
 start()  # init
 
