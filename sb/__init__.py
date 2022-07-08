@@ -292,5 +292,11 @@ def print_stack(stack):
     print(global_stack[stack])
 
 
+def increment_top(stack):
+    [top] = _get_bare_items(stack=stack, num=1)
+    top += 1
+    push(value=top, stack=stack)
+
+
 def start():
     create_stack(1)
