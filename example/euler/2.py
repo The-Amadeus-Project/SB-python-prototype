@@ -1,7 +1,6 @@
 from sb import *
 
 
-
 start()
 
 push(value=1, stack=1)
