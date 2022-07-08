@@ -1,5 +1,6 @@
 from sb import *
 
+
 start()
 push(value=600851475143, stack=1)  # num to get factors
 push(value=1, stack=1)      # factor
